@@ -2,7 +2,7 @@
 
 """
 A simple implementation of linear search algorithm in Python.
-Time complexyty: O(n)
+Time complexity: O(n)
 Space complexity: O(1)
 """
 
