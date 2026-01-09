@@ -1,5 +1,11 @@
 
-# we set the random array between 0 and 50 and 50 size (being consistent with choices)
+
+"""
+A simple implementation of linear search algorithm in Python.
+Time complexyty: O(n)
+Space complexity: O(1)
+"""
+
 import numpy as np
 
 def linear_search(array, target):
@@ -9,6 +15,7 @@ def linear_search(array, target):
     return None
 
 if __name__ == "__main__":
+    # we set the random array between 0 and 50 and 50 size (being consistent with choices)
     np.random.seed(42)
     bucket = np.arange(0,51)
     arr = np.random.choice(bucket, size=50, replace=False)
